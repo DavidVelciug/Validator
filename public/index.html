@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>React App</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<div class="page">
+    <form class="js-form" action="http://test.com" method="post" novalidate >
+        <div class="form__group">
+            <input type="text" class="input js-input" name="name" placeholder="Name"/>
+        </div>
+        <div class="form__group">
+            <input type="text" class="input js-input" name="last name" placeholder="Last name"/>
+        </div>
+        <div class="form__group">
+            <input type="email" class="input js-input js-input-email" name="email" placeholder="Email"/>
+        </div>
+        <div class="form__group">
+            <input type="tel" class="input js-input js-input-phone" name="phone" placeholder="Phone"/>
+        </div>
+        <div class="form__group file-upload">
+            <label>
+                <input type="file" name="file" accept="image/png, image/gif, image/jpeg" id="uploaded-Imagine"/>
+                <span>Pick a picture</span>
+            </label>
+        </div>
+        <div class="form__group file-upload">
+            <label>
+                <input type="file" name="file" accept="application/pdf" id="uploaded-file"/>
+                <span>Pick a pdf file</span>
+            </label>
+        </div>
+        <button class="btn" type="submit">
+            Submit
+        </button>
+    </form>
+</div>
+</body>
+</html>
